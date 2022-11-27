@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/be58c00e-0781-4ca5-9167-5e48e995fd1b/AppServices/subscriptions/be58c00e-0781-4ca5-9167-5e48e995fd1b/resourceGroups/wedding-rg/providers/Microsoft.Web/sites/wedding-web-app",
+    "appService.deploySubpath": "."
+}
