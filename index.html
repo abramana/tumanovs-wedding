@@ -38,13 +38,13 @@
 
 
 	<!-- Bootstrap CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="./css/bootstrap.min.css" rel="stylesheet" />
 	
 	<!-- Template CSS -->
-	<link href="css/style.css" rel="stylesheet" />
+	<link href="./css/style.css" rel="stylesheet" />
 	
 	<!-- Modernizr -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="./js/modernizr-2.6.2.min.js"></script>
 	
 </head>
 <body>
@@ -81,19 +81,15 @@
 			</section>
 		</header>
 		<!-- END HEADER -->
-		
-		<!-- BEGIN HOME SECTION -->
-		<section id="home" class="divider-bottom-1">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="hero-title">Viktor & Anastasiya</div>
-						<div class="hero-subtitle"></div>
-						<div class="hero-subtitle curve2"> </div>
-					</div>
-				</div>
-			</div>
-		</section>
+
+        <!-- BEGIN HOME SECTION -->
+        <section id="home" class="divider-bottom-1">
+            <div>
+                <img src="../images/we.jpg" style="width:100%;" alt="Responsive image">
+                <div class="hero-title">Viktor <br>& <br>Anastasiya</div>
+                <div class="hero-subtitle curve2"></div>
+            </div>
+        </section>
 		<!-- END HOME SECTION -->
 		
 		<!-- BEGIN THE WEDDING SECTION -->
@@ -103,9 +99,7 @@
 					<div class="invite">
 						<div class="invite" data-animation-direction="from-left" data-animation-delay="100">
 							<div class="invite_authors">
-								Viktor
-								&
-								Anastasiya
+								Дорогие гости
 							</div>
 
 							<div class="invite_info">
@@ -134,16 +128,24 @@
 							<div class="event_right" data-animation-direction="from-left" data-animation-delay="100">
 								<div class="event_panel">
 <!--									<div class="info-right">-->
-										<h4>Old Ranch Country Club</h4>
-										<p>29033 West Lake Drive, Agoura Hills, CA<br>33.776025, -118.065314</p>
+										<h4>Церемония</h4>
+										<p>16:00</p>
 <!--									</div>-->
 								</div>
 							</div>
 
-							<div class="event_right" data-animation-direction="from-left" data-animation-delay="100">
+							<div class="event_right" style="margin-top:0" data-animation-direction="from-left" data-animation-delay="100">
 								<div class="event_panel">
-										<h4>Old Ranch Country Club</h4>
-										<p>29033 West Lake Drive, Agoura Hills, CA<br>33.776025, -118.065314</p>
+										<h4>Ужин</h4>
+										<p>17:00</p>
+								</div>
+							</div>
+							<div class="event_left" style="margin-top:100px" data-animation-direction="from-right" data-animation-delay="100">
+								<div class="event_panel">
+									<!--									<div class="info-right">-->
+									<h4>09.08</h4>
+									<p>Второй день свадьбы. Место и время уточним</p>
+									<!--									</div>-->
 								</div>
 							</div>
 						</div>
@@ -155,32 +157,28 @@
 				</div>
 			</div>
 			<h5 class="section-text"> </h5>
-
-
-			<h5 class="section-text">До места празднования будет организован трансфер </h5>
-
+			
 			<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; text-align: center">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.8293283241865!2d14.474796115884343!3d50.29511367945427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470be78970a29c4d%3A0x2eb5b307b5fcbf17!2zTmEgS23DrW7EmyAocGVuemlvbiAvIHN2YXRieSAvIGZpcmVtbsOtIGFrY2Up!5e0!3m2!1sen!2scz!4v1668888012477!5m2!1sen!2scz"
 						width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
-			<h5 class="section-text"> </h5>
-			<h5 class="section-text">  </h5>
 
-
-
+			<h5 class="section-text">До места празднования будет организован трансфер </h5>
 		</section>
 		<!-- END THE WEDDING SECTION -->
-		<section id="loveline" class="no-padding-top divider-bottom-2 divider-pattern divider-bg-color">
-		</section>
-
-
 		<!-- BEGIN DRESS CODE SECTION -->
-		<section id="dresscode" class="bg-color pattern">
+		<section id="dresscode" class="divider-bottom-2 divider-pattern divider-bg-color" >
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-12">
 						<h2 class="section-title">Дресс-код</h2>
 						<h5 class="section-text">Уважаемые гости, мы будем вам очень признательны, если в своём наряде Вы выберете эти оттенки.</h5>
+						<div class="circles">
+							<div class="col-3 circle_pink"></div>
+							<div class="col-3 circle_light_purple"></div>
+							<div class="col-3 circle_purple"></div>
+							<div class="col-3 circle_black"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -193,7 +191,8 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h1 class="section-title">Приглашение</h1>
-						<h5 class="section-text">Уважаемые гости, пожалуйста, заполните следующую анкету.</h5>
+							<iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSenY-SXuKVWYCx472Pu-8KCsB7v-vzl4BK4WVGwvaBopLhfyw/viewform?embedded=true"
+									width="640" height="835" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
 					</div>
 				</div>
 			</div>
@@ -218,12 +217,22 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h2 class="section-title">Контакты</h2>
-						<h5 class="section-text">Если у вас возникнут вопросы, пожалуйста, свяжитесь с нами или с нашим организатором Елизаветой +420 775 314 669.</h5>
+						<h5 class="section-text">Если у вас возникнут вопросы, пожалуйста, свяжитесь с нами или с нашим организатором Елизаветой <br> +420 775 314 669.</h5>
 					</div>
 				</div>
 			</div>
 		</section>
-		
+
+		<footer id="footer" class="bg-color pattern">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12" style="text-align: center">
+						&copy; 2023 Viktor&Anastasiya.
+						
+					</div>
+				</div>
+			</div>
+		</footer>
 	</div>
 	<!-- END WRAPPER -->
 
