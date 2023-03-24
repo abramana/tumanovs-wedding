@@ -5050,7 +5050,7 @@ div.dark_square #pp_full_res .pp_inline {
     background-image: url('../images/divider_1@2x.png');
   }
   .divider-bottom-2 {
-    padding-bottom: 50px;
+    padding-bottom: 170px;
   }
   .divider-bottom-2::after {
     height: 500px;
